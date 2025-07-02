@@ -26,7 +26,7 @@ loadDataBtn.addEventListener('click', () => {
         card.innerHTML = `
             <img src="${user.image}" alt="${user.firstName} ${user.lastName}">
             <h3>${user.firstName} ${user.lastName}</h3>
-            <p>Email: ${user.email}</p>
+            <p>Birth date: ${user.birthDate}</p>
             <p>Phone: ${user.phone}</p>
             <p>City: ${user.address.city}</p>
         `
